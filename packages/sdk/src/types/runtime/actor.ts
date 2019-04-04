@@ -678,7 +678,7 @@ export class Actor implements ActorLike, Patchable<ActorLike> {
             grabbable: this._grabbable
         } as ActorLike;
     }
-    
+
     /**
      * INTERNAL METHODS
      */
@@ -696,7 +696,7 @@ export class Actor implements ActorLike, Patchable<ActorLike> {
         }
         return msg;
     }
-    
+
     /** @hidden */
     public actorChanged = (...path: string[]) => {
         if (this.internal.observing) {

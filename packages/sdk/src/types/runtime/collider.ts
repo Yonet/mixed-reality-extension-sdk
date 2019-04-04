@@ -3,11 +3,10 @@
  * Licensed under the MIT License.
  */
 
-import { EventEmitter } from 'events';
 import { Actor, ColliderGeometry } from '.';
+import { InternalCollider } from '../internal/collider';
 import { CollisionHandler, TriggerHandler } from './physics';
 import { ColliderEventType, CollisionEventType, TriggerEventType } from './physics/collisionEventType';
-import { InternalCollider } from '../internal/collider';
 
 /**
  * Describes the properties of a collider.

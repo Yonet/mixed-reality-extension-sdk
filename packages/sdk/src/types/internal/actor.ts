@@ -11,7 +11,7 @@ import {
     ColliderEventType,
     CollisionData,
     DiscreteAction,
-    SetAnimationStateOptions } from '../..';
+    SetAnimationStateOptions,
 } from '../..';
 import { ExportedPromise } from '../../utils/exportedPromise';
 import { InternalPatchable } from '../patchable';
