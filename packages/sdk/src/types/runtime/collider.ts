@@ -117,7 +117,8 @@ export class Collider implements ColliderLike {
             enabled: this.enabled,
             isTrigger: this.isTrigger,
             // collisionLayer: this.collisionLayer,
-            colliderGeometry: this._colliderGeometry
+            colliderGeometry: this._colliderGeometry,
+            eventSubscriptions: this.eventSubscriptions
         } as ColliderLike;
     }
 }
