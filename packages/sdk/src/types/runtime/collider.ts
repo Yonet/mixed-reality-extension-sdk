@@ -23,6 +23,8 @@ export interface ColliderLike {
  * A collider represents the abstraction of a physics collider object on the host.
  */
 export class Collider implements ColliderLike {
+    public $DoNotObserve = ['_internal'];
+
     // Readonly params that are not patchable or observable.
     // tslint:disable:variable-name
     private _colliderGeometry: Readonly<ColliderGeometry>;
